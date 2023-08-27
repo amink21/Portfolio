@@ -168,18 +168,15 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 98%;
     height: 100%;
     object-fit: contain;
 }
 
-
-
-
-
 /*ABOUT*/
 #aboutMe{
     text-align: center;
+    min-height: 90vh;
 }
 .aboutText{
     font-size: 23px;
@@ -388,7 +385,6 @@ section{
     }
 }
 
-
 /*FOOTER*/
 .footer{
     min-height: 10vh;
@@ -401,5 +397,14 @@ section{
 }
 
 
+/*MOBILE DEVICE*/
+@media(max-width: 768px){
 
+    .cursor, .cursor2{
+        display: none;
+    }
 
+    .logo{
+        scale: 70%;
+    }
+}
