@@ -220,7 +220,12 @@ section{
     border-radius: 5px;
     font-weight: 600;
 }
-
+.skills, .skills__skill{
+    transition: transform 0.5s;
+}
+.skills__skill:hover {
+    transform: scale(107%);
+}
 
 /*PROJECTS*/
 #myProjects{
